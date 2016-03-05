@@ -242,3 +242,4 @@ _Pvt_Extensions
 # JetBrains Rider
 .idea/
 *.sln.iml
+OpenCV_Playground/OpenCV_Playground.vcxproj
