@@ -18,37 +18,43 @@ void ContourProcessor::UpdateCont(Mat binFrame)
 	binFrame.copyTo(_binFrame);
 }
 //Finds the x biggest conts
-vector<vector<Point>> ContourProcessor::LargestConts(int len)
+//vector<vector<Point>> ContourProcessor::LargestConts(int len)
+int ContourProcessor::LargestConts(int len)
 {
 	OutputArrayOfArrays outA();
 	OutputArray outB();
 	//findContours(_binFrame, outA, outB, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE, Point(0, 0));
-	findContours(_binFrame, _contours, _hierarchy, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE, Point(0, 0));
-	vector<vector<Point>> largests;
-	vector<Point> temp;
+	findContours(_binFrame, _contours, _hierarchy, CV_RETR_TREE, CV_CHAIN_APPROX_SIMPLE, Point(0, 0));
+	vector<int> largests;
+	vector<Vec4i> largetsH;
+	int temp;
 	Rect bounding_rect;
 
 	for (int i = 0; i < len; i++)
 	{
 		temp = FindLargestCont();
-		if (temp.size() != 0)
+		if (temp != -1)
 		{
 			largests.push_back(temp);
-			_contours.erase(std::find(_contours.begin(), _contours.end(), temp));
+			//largests.push_back(_contours[temp]);
+			//largetsH.push_back(_hierarchy[temp]);
+			//_contours.erase(std::find(_contours.begin(), _contours.end(), temp));
+			//_contours.erase(_contours.begin() + temp);
+			//_hierarchy.erase(_hierarchy.begin() + temp);
 		}
 	}
 	Mat drawing = Mat::zeros(_binFrame.size(), CV_8UC3);
 	Scalar color(250, 250, 0);
 	for (int i = 0; i < largests.size(); i++)
 	{
-		drawContours(drawing, _contours, i, color, CV_FILLED, 8, _hierarchy); // Draw the largest contour using previously stored index.
-		rectangle(drawing, bounding_rect, Scalar(0, 255, 0), 1, 8, 0);
+		drawContours(drawing, _contours, largests[ i], color, CV_FILLED, 8, _hierarchy); // Draw the largest contour using previously stored index.
+		rectangle(drawing, bounding_rect, Scalar(150, 255, 0), 1, 8, 0);
 
 	}
-	//imshow("contoClass", drawing);
-	return largests;
+	imshow("contoClass", drawing);
+	return 0;
 }
-vector<Point> ContourProcessor::FindLargestCont()
+int ContourProcessor::FindLargestCont()
 {
 	int largest_area = 0;
 	int largest_contour_index = 0;
@@ -58,7 +64,7 @@ vector<Point> ContourProcessor::FindLargestCont()
 	//Mat drawing = Mat::zeros(_binFrame.size(), CV_8UC3);
 
 	if (_contours.size() == 0)
-		return vector<Point>();
+		return -1;
 	for (int i = 0; i< _contours.size(); i++) // iterate through each contour. 
 	{
 		double a = contourArea(_contours[i], false);  //  Find the area of contour
@@ -75,6 +81,6 @@ vector<Point> ContourProcessor::FindLargestCont()
 	//rectangle(drawing, bounding_rect, Scalar(0, 255, 0), 1, 8, 0);
 	//imshow("contoClass", drawing);
 	
-	return _contours[largest_contour_index];
+	return largest_contour_index;
 	
 }

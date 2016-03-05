@@ -3,9 +3,15 @@
 
 MyThreshold::MyThreshold(const Mat& back)
 {
-	back.copyTo(_background);
-	cvtColor(_background, _background, CV_BGR2GRAY);
-
+	try
+	{
+		back.copyTo(_background);
+		cvtColor(_background, _background, CV_BGR2GRAY);
+	}
+	catch (Exception& e)
+	{
+		int i;
+	}
 	//absdiff(changeColorFormat(skinColorThresh(src)), changeColorFormat(skinColorThresh(background)), thresh_mat);
 	//
 }

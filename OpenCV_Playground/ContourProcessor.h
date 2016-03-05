@@ -22,8 +22,8 @@ public:
 	ContourProcessor(bool debug = false);
 	ContourProcessor(Mat binFrame);
 	void UpdateCont(Mat binFrame);
-	vector<vector<Point>> LargestConts(int len = 4);
-	vector<Point> FindLargestCont();
+	int LargestConts(int len = 1);
+	int FindLargestCont();
 
 	~ContourProcessor();
 };
