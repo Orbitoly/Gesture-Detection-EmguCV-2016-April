@@ -5,6 +5,7 @@
 #include <iostream>
 using namespace cv;
 using namespace std;
+
 class Camera
 {
 private:
@@ -12,8 +13,8 @@ private:
 	VideoCapture _capture;
 public:
 	Camera();
-	Camera(int camNum);
-	void TakeShot();
+	Camera(int camNum, bool debug = false);
+	Mat TakeShot();
 	void MirrorImage();
 	~Camera();
 	void Set_FPS(int fps);

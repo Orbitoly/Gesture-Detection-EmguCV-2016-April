@@ -11,16 +11,23 @@ Camera::~Camera()
 {
 
 }
-Camera::Camera(int camNum)
+Camera::Camera(int camNum, bool debug)
 {
 	VideoCapture cap(camNum);
 	_capture = cap;
 	cap.set(CV_CAP_PROP_AUTO_EXPOSURE, 0);
+	if (debug)
+	{
+		cout << "Cam size: " << cap.get(CV_CAP_PROP_FRAME_WIDTH) << "x" << cap.get(CV_CAP_PROP_FRAME_HEIGHT) << endl;
+		cout << "Size: " << sizeof(Mat) << endl;
+	}
+
 }
-void Camera::TakeShot()
+Mat Camera::TakeShot()
 {
 	_capture >> _frame;
 	MirrorImage();
+	return _frame;
 }
 void Camera::Set_FPS(int fps)
 {

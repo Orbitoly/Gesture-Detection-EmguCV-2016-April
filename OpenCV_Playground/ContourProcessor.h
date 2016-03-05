@@ -12,10 +12,13 @@ using namespace cv;
 class ContourProcessor
 {
 private:
+	bool debug;
+	vector<vector<Point> > _contours;
+	vector<Vec4i> _hierarchy;
 public:
 	Mat _binFrame;
 
-	ContourProcessor();
+	ContourProcessor(bool debug = false);
 	ContourProcessor(Mat binFrame);
 	void UpdateCont(Mat binFrame);
 	void FindLargestCont();

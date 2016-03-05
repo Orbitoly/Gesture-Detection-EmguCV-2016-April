@@ -13,6 +13,7 @@ using namespace cv;
 using namespace std;
 Ptr<BackgroundSubtractor> pMOG2;
 void drawRec(Mat frame, Point a);
+
 int main() {
 	//pMOG2 = createBackgroundSubtractorMOG2();
 	//Ptr< BackgroundSubtractorGMG> pGMG; //MOG2 Background subtractor  
@@ -20,7 +21,7 @@ int main() {
 	const int LIFECAM = 1;
 	const int MAX_FPS = 25;
 	const int WAIT_TIME = 3000;
-	Camera cam(LAPTOP_CAM);
+	Camera cam(LAPTOP_CAM,TRUE);
 	Mat frame, backGround;
 	Mat blured;
 	MyThreshold thr;
@@ -30,8 +31,9 @@ int main() {
 	Mat threshed;
 	Sleep(WAIT_TIME); // waiting for the camera to adjust, before first picture
 	cam.TakeShot(); // taking background shot, no hand should be in that image
-	cam.TakeShot(); // taking background shot, no hand should be in that image
-	cam.getFrame().copyTo(backGround); //Deep Copy
+	cam.TakeShot().copyTo(backGround); // taking background shot, no hand should be in that image
+	//cam.getFrame().copyTo(backGround); //Deep Copy
+
 	thr = MyThreshold(backGround);
 	Mat diff;
 	Mat src_drawing;
@@ -46,59 +48,36 @@ int main() {
 	vector<Vec4i> hierarchy;
 	int largest_area = 0;
 	int largest_contour_index = 0;
+
+
 	while (true) {
-		cam.TakeShot();
+		cam.TakeShot().copyTo(frame);
 		
-		cam.getFrame().copyTo(frame);
+		//cam.getFrame().copyTo(frame);
 
 		thr.UpdateFrame(frame);
 
 	    //cont = ContourProcessor(thr.GetOutput());
 		threshed = thr.Thresh();
+
+
 		imshow("threshed", threshed);
 		cont.UpdateCont(threshed);
 		cont.FindLargestCont();
+		/*findContours(threshed, contours, hierarchy, CV_RETR_TREE, CV_CHAIN_APPROX_SIMPLE, Point(0, 0));
+
+		/// Draw contours
+		Mat drawing = Mat::zeros(threshed.size(), CV_8UC3);
+		for (int i = 0; i< contours.size(); i++)
+		{
+			Scalar color = Scalar(40,40,40);
+			drawContours(drawing, contours, i, color, 2, 8, hierarchy, 0, Point());
+		}
 
 
+		imshow("cont", threshed);*/
 
 		
-		//findContours(threshed, contours, hierarchy, CV_RETR_TREE, CV_CHAIN_APPROX_SIMPLE);
-		//////this will find largest contour
-		//double a;
-		//largest_contour_index = -1; // something invalid
-
-		//for (int i = 0; i< contours.size(); i++) // iterate through each contour. 
-		//{
-		//	//drawContours(frame, contours, i, CV_RGB(0, 255, 0), 2, 8, hierarchy);
-
-		//	a = contourArea(contours[i], false);  //  Find the area of contour
-		//	if (a>largest_area)
-		//	{
-		//		largest_area = a;
-		//		largest_contour_index = i;                //Store the index of largest contour
-		//	}
-
-		//}
-		////search for largest contour has end
-
-
-		//if (largest_contour_index > -1)
-		//{
-		//	///Draw largest perimeter
-		//	src_drawing = Mat::zeros(frame.size(), CV_8UC3);
-		//	Scalar color = Scalar(40, 40, 40);
-		//	drawContours(src_drawing, contours, largest_contour_index, color, 2, 8, hierarchy, 0, Point());
-		//	Mat src_drawingclone = src_drawing.clone();
-
-		//	///Bounding Rectangle
-		//	boundingrect = boundingRect(contours[largest_contour_index]);
-		//	rectangle(src_drawing, boundingrect, Scalar(255, 255, 0), 2);
-		//	cout << "x:" << boundingrect.x << "  y:" << boundingrect.y << endl;
-		//	cout << "h:" << boundingrect.height << "  w:" << boundingrect.width;
-		//}
-		//// iterate through each contour.
-		//
-		//imshow("Frame", src_drawing);
 
 		cam.Set_FPS(MAX_FPS);
 		if (waitKey(1) == 27)
@@ -106,6 +85,7 @@ int main() {
 	}
 	
 }
+
 void drawRec(Mat frame, Point a)
 {
 

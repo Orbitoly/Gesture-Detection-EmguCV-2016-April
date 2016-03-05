@@ -1,7 +1,7 @@
 #include "MyThreshold.h"
 
 
-MyThreshold::MyThreshold(Mat back)
+MyThreshold::MyThreshold(const Mat& back)
 {
 	back.copyTo(_background);
 	cvtColor(_background, _background, CV_BGR2GRAY);
@@ -20,6 +20,8 @@ Mat MyThreshold::changeColorFormat(Mat src)
 {
 	Mat colored;
 	cvtColor(src, colored, COLOR_BGR2YCrCb);
+
+
 	return colored;
 }
 Mat MyThreshold::skinColorThresh(Mat src)
@@ -28,6 +30,8 @@ Mat MyThreshold::skinColorThresh(Mat src)
 	Scalar max = Scalar(255, 173, 127);
 	Mat skin;
 	inRange(src, min, max, skin);
+
+
 	return skin;
 }
 void MyThreshold::SetFrame(Mat src)
@@ -50,10 +54,9 @@ Mat MyThreshold::Thresh()
 Mat MyThreshold::DiffThresh()
 {
 
-	Mat element5(10, 10, CV_8U, cv::Scalar(1));
-	Mat eroding;
-	Mat dilating;
-
+	Mat element5(4, 4, CV_8U, cv::Scalar(1));
+	Mat closed;
+	Mat opened;
 
 	Mat diffThresh;
 	Mat grey;
@@ -70,11 +73,13 @@ Mat MyThreshold::DiffThresh()
 	//morphologyEx(eroding, dilating, cv::MORPH_DILATE, element5);
 
 
-	imshow("diff", diffThresh);
+	//imshow("Before diff", diffThresh);
+	morphologyEx(diffThresh, closed, cv::MORPH_CLOSE, element5);
+	morphologyEx(closed, opened, cv::MORPH_OPEN, element5);
+	//imshow("After diff", opened);
 
 
-
-	return diffThresh;
+	return opened;
 }
 Mat MyThreshold::ColorThresh()
 {
@@ -85,11 +90,12 @@ Mat MyThreshold::ColorThresh()
 	Mat element5(5, 5, CV_8U, cv::Scalar(1));
 	Mat closed;
 	Mat opened;
+	imshow("BeforeSkin", colorThresh);
 
-	//morphologyEx(colorThresh, closed, cv::MORPH_CLOSE, element5);
-	//morphologyEx(closed, opened, cv::MORPH_OPEN, element5);
+	morphologyEx(colorThresh, closed, cv::MORPH_CLOSE, element5);
+	morphologyEx(closed, opened, cv::MORPH_OPEN, element5);
 
-	imshow("skinColor", colorThresh);
-	return colorThresh;
+	imshow("AfterskinColor", opened);
+	return opened;
 }
 

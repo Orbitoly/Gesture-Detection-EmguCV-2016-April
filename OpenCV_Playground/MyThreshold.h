@@ -14,7 +14,7 @@ private:
 	Mat _background;
 public:
 
-	MyThreshold(Mat background);
+	MyThreshold(const Mat& background);
 	MyThreshold();
 	      
 	~MyThreshold();
