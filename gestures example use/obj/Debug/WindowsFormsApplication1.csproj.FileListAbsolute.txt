@@ -1,0 +1,127 @@
+E:/Emgu/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.csproj.WindowsFormsApplication1.exe.config
+E:/Emgu/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.Form1.resources
+E:/Emgu/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.Properties.Resources.resources
+E:/Emgu/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:/Emgu/WindowsFormsApplication1/bin/Debug/cvextern.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/msvcp120.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/msvcr120.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/opencv_ffmpeg300.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/WindowsFormsApplication1.exe.config
+E:/Emgu/WindowsFormsApplication1/bin/Debug/WindowsFormsApplication1.exe
+E:/Emgu/WindowsFormsApplication1/bin/Debug/WindowsFormsApplication1.pdb
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Contrib.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Cuda.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.DebuggerVisualizers.VS2015.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.ML.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.OCR.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Shape.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Stitching.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Superres.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.UI.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.UI.GL.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.VideoStab.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.Util.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Microsoft.VisualStudio.DebuggerVisualizers.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/ZedGraph.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/DirectShowLib-2005.dll
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Contrib.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Cuda.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.ML.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.OCR.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Shape.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Stitching.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.Superres.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.UI.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.UI.GL.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.CV.VideoStab.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Emgu.Util.xml
+E:/Emgu/WindowsFormsApplication1/bin/Debug/TryDll.pdb
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Microsoft.VisualStudio.DebuggerVisualizers.xml
+E:/Emgu/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:/Emgu/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.exe
+E:/Emgu/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.pdb
+E:/Emgu/WindowsFormsApplication1/bin/Debug/Gestures.pdb
+E:/Emgu/תכנית לדוגמא/bin/Debug/WindowsFormsApplication1.exe.config
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.exe
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.pdb
+E:/Emgu/תכנית לדוגמא/bin/Debug/cvextern.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/msvcp120.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/msvcr120.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/opencv_ffmpeg300.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/WindowsFormsApplication1.exe
+E:/Emgu/תכנית לדוגמא/bin/Debug/WindowsFormsApplication1.pdb
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Contrib.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Cuda.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.DebuggerVisualizers.VS2015.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.ML.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.OCR.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Shape.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Stitching.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Superres.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.UI.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.UI.GL.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.VideoStab.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.Util.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Microsoft.VisualStudio.DebuggerVisualizers.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/ZedGraph.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/DirectShowLib-2005.dll
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Contrib.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Cuda.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.ML.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.OCR.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Shape.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Stitching.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.Superres.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.UI.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.UI.GL.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.CV.VideoStab.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Emgu.Util.xml
+E:/Emgu/תכנית לדוגמא/bin/Debug/Gestures.pdb
+E:/Emgu/תכנית לדוגמא/bin/Debug/Microsoft.VisualStudio.DebuggerVisualizers.xml
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.csproj.WindowsFormsApplication1.exe.config
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.Form1.resources
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.Properties.Resources.resources
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:/Emgu/תכנית לדוגמא/bin/Debug/Gestures.dll
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.CarGame.resources
+E:/Emgu/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.myPlayer.resources
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/cvextern.dll
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/msvcp120.dll
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/msvcr120.dll
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/opencv_ffmpeg300.dll
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/WindowsFormsApplication1.exe.config
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/WindowsFormsApplication1.exe
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/WindowsFormsApplication1.pdb
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Microsoft.VisualStudio.DebuggerVisualizers.dll
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/ZedGraph.dll
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/DirectShowLib-2005.dll
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.Contrib.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.Cuda.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.ML.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.OCR.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.Shape.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.Stitching.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.Superres.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.UI.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.UI.GL.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.CV.VideoStab.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Emgu.Util.xml
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Gestures.pdb
+/Users/orbit/Downloads/תכנית לדוגמא/bin/Debug/Microsoft.VisualStudio.DebuggerVisualizers.xml
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.csproj.AssemblyReference.cache
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.exe.config
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.CarGame.resources
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.Form1.resources
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.myPlayer.resources
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.Properties.Resources.resources
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.csproj.GenerateResource.cache
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.csproj.CopyComplete
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.exe
+/Users/orbit/Downloads/תכנית לדוגמא/obj/Debug/WindowsFormsApplication1.pdb
