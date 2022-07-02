@@ -14,11 +14,14 @@ That is my "Bagrut" project through "Magshimim". The goal is to detect and recor
 
 </p>
 
-<h2>Detection example</h2>
+<h2>Detection examples</h2>
 
 <p align="center">
 
 <img src="https://github.com/Orbitoly/Gesture-Detection-EmguCV-2016-April/blob/master/detection.jpg" style="background-color:white;" alt="alt text" width="400px" height="whatever">
+
+
+<img src="https://github.com/Orbitoly/Gesture-Detection-EmguCV-2016-April/blob/master/detection2.jpg" style="background-color:white;" alt="alt text" width="400px" height="whatever">
 
 </p>
 
