@@ -10,7 +10,7 @@ That is my "Bagrut" project through "Magshimim". The goal is to detect and recor
 <h2>Algorithm</h2>
 <p align="center">
 
-<img src="https://github.com/Orbitoly/Gesture-Detection-EmguCV-2016-April/blob/master/Algorithm.png" style="background-color:white;" alt="alt text" width="400px" height="whatever">
+<img src="https://github.com/Orbitoly/Gesture-Detection-EmguCV-2016-April/blob/master/Algorithm.png" style="background-color:white;" alt="alt text" width="700px" height="whatever">
 
 </p>
 
