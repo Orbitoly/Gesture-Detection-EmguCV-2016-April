@@ -33,3 +33,9 @@ During my research, I've found and used <a href="https://www.researchgate.net/pu
 
 </p>
 You can see the combining absdiff with color detection, helped me to remove objects such as the guitar from the contours that might be my hand. (because altough it is in the range of skin colors, but it does not move)
+
+
+
+
+https://github.com/Orbitoly/Gesture-Detection-EmguCV-2016-April/assets/17669444/024bd724-22aa-4677-b95c-4f2012576afe
+
