@@ -34,7 +34,7 @@ During my research, I've found and used <a href="https://www.researchgate.net/pu
 </p>
 You can see the combining absdiff with color detection, helped me to remove objects such as the guitar from the contours that might be my hand. (because altough it is in the range of skin colors, but it does not move)
 
-
+<br/><br/>
 For demo day I've built a C# code which uses my DLL, to record and identify ↑ ↓ → ← hand movements, which controlled a car driving on screen
 
 https://github.com/Orbitoly/Gesture-Detection-EmguCV-2016-April/assets/17669444/024bd724-22aa-4677-b95c-4f2012576afe
